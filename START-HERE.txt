@@ -1,0 +1,48 @@
+ravibandara PAPER REVIEW - DOWNLOADABLE EDITION
+
+WINDOWS: HOW TO START
+1. Right-click Paper_Review_Offline.zip and choose Extract All.
+2. Open the extracted Paper_Review folder.
+3. Double-click start_local.bat.
+4. The app opens in the default browser. Chrome or Edge is suitable.
+5. Click Open PDF and select a paper.
+
+Requires Python 3 installed on the computer. If the launcher reports that
+Python is missing, install Python 3 and then run start_local.bat again.
+All PDF viewing and English OCR files are included; after setup the tool
+works offline. Optional Google reference lookups require internet access.
+
+Keep the launcher window open while using the app. After saving the work,
+close the browser tab and press Ctrl+C in the launcher window to stop it.
+Do not open index.html directly: use start_local.bat.
+
+HOW TO REVIEW
+- Read the main text on the left; navigate figures independently on the right.
+- Use the annotation toolbar to highlight, add PDF notes or draw shapes.
+- Type notebook comments and click Add comment.
+- Use References to extract and check the bibliography.
+- Export .txt saves notebook comments separately.
+- Save PDF saves PDF annotations. In supporting browsers, it can write to
+  the selected PDF with permission. Keep an original backup if needed.
+
+IMPORTANT: SAVE BEFORE CLOSING
+The original workflow clears working notes when closing/reloading the tab,
+closing the PDF or switching papers. Use Save PDF AND Export .txt before
+leaving. Reopening a saved marked PDF restores its embedded annotations;
+notebook comments remain in the separate TXT file.
+
+This is a manual review workspace, not an automated AI reviewer.
+PDFs are processed on the computer, not uploaded.
+
+MAC / LINUX
+Run python3 start_local.py from the extracted Paper_Review folder.
+
+GITHUB REPOSITORY AND WEBSITE
+Repository: https://github.com/bandara10/paper-review-ravi
+Website after GitHub Pages is enabled: https://bandara10.github.io/paper-review-ravi/
+
+SOURCE AND LICENSE
+Based on Parsecneuro Paper Review by Aref Pariz.
+https://parsecneuro.github.io/tools/paper-review/index.html
+MIT license and third-party notices are included.
+Personal standalone copy; original opening counter removed.
